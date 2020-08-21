@@ -54,10 +54,9 @@ public class Question_3
 		{
 			return "No path";
 		}
-		else
-		{
-			return String.valueOf(dist[dest]);
-		}
+		
+		return String.valueOf(dist[dest]);
+		
 			
 		
 	}
