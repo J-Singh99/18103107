@@ -50,7 +50,16 @@ public class Question_3
 				return "Negative cycles exist";
 			}
 		}
-		return dist[dest]==Integer.MAX_VALUE?"No path":String.valueOf(dist[dest]);
+		if (dist[dest]==Integer.MAX_VALUE)
+		{
+			return "No path";
+		}
+		else
+		{
+			return String.valueOf(dist[dest]);
+		}
+			
+		
 	}
 
 
