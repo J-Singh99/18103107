@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Question
+public class Question_2
 {
     public static void main(String args[])
     {
@@ -50,7 +50,7 @@ public class Question
     	}
   
     	System.out.print("Answer : ");
-    	System.out.pritn("\n");
+    	System.out.print("\n");
 
 
     	System.out.print(para.toString().trim());
