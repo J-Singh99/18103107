@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Question
+public class Question_1
 {
 	public static void print(String msg)
     {
